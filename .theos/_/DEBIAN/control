@@ -1,0 +1,10 @@
+Package: com.tr1fecta.nocallblur
+Name: NoCallBlur
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: A tweak to remove the blur from the call background.
+Maintainer: Tr1Fecta
+Author: Tr1Fecta
+Section: Tweaks
+Version: 1.0
+Installed-Size: 104
