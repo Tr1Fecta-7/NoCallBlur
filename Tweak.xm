@@ -15,8 +15,8 @@ BOOL hideBlur;
 -(void)layoutSubviews {
     %orig;
 
-    for (UIView* view in self.subviews) {
-        if (hideBlur) {
+    if (hideBlur) {
+        for (UIView* view in self.subviews) {
             [view setHidden:YES];
             hideBlur = NO;
             break;

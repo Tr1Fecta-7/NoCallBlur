@@ -32,7 +32,7 @@ BOOL hideBlur;
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class SBRemoteAlertAdapter; @class SBWallpaperEffectView; 
+@class SBWallpaperEffectView; @class SBRemoteAlertAdapter; 
 static void (*_logos_orig$_ungrouped$SBWallpaperEffectView$layoutSubviews)(_LOGOS_SELF_TYPE_NORMAL SBWallpaperEffectView* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$SBWallpaperEffectView$layoutSubviews(_LOGOS_SELF_TYPE_NORMAL SBWallpaperEffectView* _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$_ungrouped$SBRemoteAlertAdapter$viewDidLoad)(_LOGOS_SELF_TYPE_NORMAL SBRemoteAlertAdapter* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$SBRemoteAlertAdapter$viewDidLoad(_LOGOS_SELF_TYPE_NORMAL SBRemoteAlertAdapter* _LOGOS_SELF_CONST, SEL); 
 
 #line 13 "Tweak.xm"
